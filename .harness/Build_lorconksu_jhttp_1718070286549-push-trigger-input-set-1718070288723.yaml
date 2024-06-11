@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_lorconksu_jhttp_1718070286549-push-trigger-input-set
+  identifier: Build_lorconksu_jhttp_1718070286549pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_lorconksu_jhttp_1718070286549
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
